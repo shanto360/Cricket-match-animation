@@ -1,0 +1,22 @@
+.fild{
+    border: 1px solid;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 25px;
+    position: relative;
+    left: 515px;
+    transition: transform 1s ease-out 0.3s;
+}
+.bat{
+    transition: transform 0.2s ease-in;
+}
+.fild:hover .ball{
+    transform: translate(670px, -200px);
+}
+.fild:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
